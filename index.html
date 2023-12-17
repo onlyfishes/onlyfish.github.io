@@ -6,8 +6,7 @@
     <title>中转</title>
 </head>
 <body>
-    <div id="tips" style="font-size:25px;text-align: center;line-height: 50px;"></div>
-<script src="https://www.808kf.com/customerServer.js"></script>                 
+    <div id="tips" style="font-size:25px;text-align: center;line-height: 50px;"></div>               
     <script>
     var url = document.location.toString();
     var urlParmStr = url.slice(url.indexOf('=')+1);
@@ -18,7 +17,7 @@
     var isIos = (ua.indexOf('iphone') != -1) || (ua.indexOf('ipad') != -1);
 
     var notice_openBrowser = "<h2>请点击右上角，通过浏览器打开本页面。</h2>"
-<script src="https://www.808kf.com/customerServer.js"></script> 
+
     // 判断是不是在微信客户端打开
     if(isWeixin || isQQ) {
     // 判断是在Android的微信客户端还是Ios的微信客户端
